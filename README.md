@@ -1,27 +1,26 @@
 # Springboot
 Microsserviço em SpringBoot
 
-mvn clean install
+# mvn clean install
 Esse comando irá construir o artefato .jar, caso seja a primeira vez que esteja executando a construção, serão feitos downloads de algumas bibliotecas essenciais 
 Após a mensagem de sucesso (BUILD SUCCESS),  importe o projeto na sua IDE (Eclipse e etc…)
 
-
 No ${meu_diretorio}, rode:
-mvn spring-boot:run
+# mvn spring-boot:run
 
-Comandos docker:
+#  Comandos docker:
 Para Listar os containers:
-docker ps
+# docker ps
 
 Para parar o container:
-docker stop {container_id}
+# docker stop {container_id}
 
 Após salvar o arquivo no seu diretório padrão, rodar no terminal (no mesmo diretório a onde está o seu “docker-compose.yml”:
-docker-compose up -d
+# docker-compose up -d
 Para validar se os containers estão no ar:
-docker ps
+# docker ps
 
-Docker Compose
+# Docker Compose
 Em algum diretório da sua máquina crie o arquivo  docker-compose.yml
 
 Coloque o conteúdo a seguir:
