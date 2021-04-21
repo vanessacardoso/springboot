@@ -1,5 +1,5 @@
 # Springboot
-Microsserviço em SpringBoot
+Material do workshop ministrado pela SouthSystem em microsserviços SpringBoot. 
 
 # mvn clean install
 Esse comando irá construir o artefato .jar, caso seja a primeira vez que esteja executando a construção, serão feitos downloads de algumas bibliotecas essenciais 
